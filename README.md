@@ -8,6 +8,17 @@ Security Engineer focused on detection engineering, corporate security automatio
 - **Device ownership reconciliation** — cross-platform pipeline across CrowdStrike, Kandji, Intune, and Okta that correlates by serial number and writes ownership tags back on a daily schedule
 - **Endpoint compliance automation** — ring-model deployment and MDM remediation scripting to drive measurable coverage improvements across macOS and Windows fleets
 
+## Featured projects
+
+| Repo | What it does |
+|---|---|
+| [alert-triage-bot](https://github.com/AlexWhitaker/alert-triage-bot) | Slack Bolt bot that parses Datadog/Jira alerts and drives interactive user verification |
+| [endpoint-coverage-monitor](https://github.com/AlexWhitaker/endpoint-coverage-monitor) | Python integrations: CrowdStrike, Kandji, Cisco Umbrella to Datadog for device health and vuln management |
+| [ioc-feed-pipeline](https://github.com/AlexWhitaker/ioc-feed-pipeline) | Pulls IOCs from public feeds and ships them to Datadog as structured log events |
+| [ioc-detection-terraform](https://github.com/AlexWhitaker/ioc-detection-terraform) | Terraform: IOC feeds correlated against CrowdStrike DNS telemetry in Datadog |
+| [cloudtrail-compliance-terraform](https://github.com/AlexWhitaker/cloudtrail-compliance-terraform) | Terraform module for org-wide, compliance-grade CloudTrail with immutable logs |
+| [endpoint-scripts-corpsec](https://github.com/AlexWhitaker/endpoint-scripts-corpsec) | macOS shell scripts for Cisco Umbrella, CrowdStrike Falcon, and Tenable Nessus |
+
 ## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
